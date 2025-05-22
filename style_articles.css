@@ -63,4 +63,8 @@ div.next_article {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    line-height: 1.6;
 }
