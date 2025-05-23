@@ -4,8 +4,12 @@ h1.centre {
 }
 
 p.intro {
-    margin: 10px;
     text-align: center;
+}
+
+em.intro {
+    font-style: italic;
+    font-weight: bold;
 }
 
 h3 {
@@ -31,18 +35,15 @@ a.socials:hover {
 
 div.content {
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     max-width: 700px;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     line-height: 1.6;
 }
 
-em.intro {
-    font-style: italic;
-    font-weight: bold;
-}
+
 
 h4 {
     font-size: larger;
@@ -60,14 +61,16 @@ body {
 }
 
 div.next_article {
-    margin: auto;
     max-width: 700px;
-    margin-top: 10px;
+    margin: auto;
+    margin-top: 20px;
     margin-bottom: 50px;
     text-align: center;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     line-height: 1.6;
 }
