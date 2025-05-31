@@ -1,3 +1,20 @@
+body {
+    background-color: gainsboro;
+    font-family: sans-serif;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+a {
+    transition: 1s;
+}
+
+a:hover {
+    color: grey;
+}
+
 h1 {
     text-align: center;
 }
@@ -7,28 +24,20 @@ div.socials {
     text-align: center;
 }
 
-div.navigation {
-    margin: 20px;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-}
-
 a.socials {
     color: black;
     margin: 10px;
     font-size: x-large;
-    transition: 1s;
 }
 
-a.socials:hover {
-    color: grey;
+div.navigation {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
 }
 
-div.page {
-    margin: auto;
-    margin-bottom: 100px;
-    max-width: 700px;
+a.navigation {
+    margin: 10px;
 }
 
 div.article {

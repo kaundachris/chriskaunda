@@ -40,18 +40,18 @@ a.navigation {
     margin: 10px;
 }
 
-div.block {
-    margin: 20px;
+form {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+    max-width: 700px;
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     line-height: 1.6;
 }
 
-em {
-    font-weight: bold;
-}
-
-div.work {
-    margin-bottom: 50px;
+input {
+    border-radius: 5px;
 }
