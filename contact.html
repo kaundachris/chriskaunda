@@ -21,38 +21,42 @@
 </head>
 
 <body>
-    <h1>CHRIS KAUNDA</h1>
+    <header>
+        <h1>CHRIS KAUNDA</h1>
+        <nav>
+            <a class="navigation" href="index.html">Blog</a>
+            <a class="navigation" href="about.html">About</a>
+        </nav>
+    </header>
 
-    <div class="socials">
+    <main>
+        <p style="margin: 20px;">Hey you! Want to know when a new article goes up? Sign up for the newsletter below!</p>
+        
+        <form id="myForm" >
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <script src="/scripts/newsletter.js"></script>
+    </main>
+
+
+    <footer>
         <a class="socials" href="https://www.linkedin.com/in/chriskaunda/" target="_blank"><ion-icon
                 name="logo-linkedin"></ion-icon></a>
         <a class="socials" href="https://github.com/kaundachris" target="_blank"><ion-icon
                 name="logo-github"></ion-icon></a>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    </div>
-
-    <div class="navigation">
-        <a class="navigation" href="index.html">Blog</a>
-        <a class="navigation" href="about.html">About</a>
-    </div>
-
-    <form id="myForm">
-        <p style="margin: 20px;">Want to know when a new article goes up? Sign up for the newsletter below!</p>
-
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-
-        <button type="submit">Submit</button>
-    </form>
-
-    <script src="/scripts/newsletter.js"></script>
-
+        <p>&copy <span id="copyright"></span> Chris Kaunda, All Rights Reserved</p>
+    </footer>
 </body>
 
 </html>
