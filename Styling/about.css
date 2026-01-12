@@ -39,44 +39,16 @@ a:hover {
     margin: 5px;
 }
 
-
-
-/*accordion styling*/ 
-.accordion-toggle {
-    background-color: black;
-    color: antiquewhite;
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    transition: background-color 1s ease;
-}
-
-.accordion-toggle:hover {
-    background-color: #1d1c1c;
-}
-
-.accordion-content {
-    text-align: left;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1s ease;
-    background-color: black;
-    padding: 0 1rem;
-}
-
-.accordion-content.open {
-    padding-top: 1rem;
-    max-height: 2000px; /* Large enough to fit your content */
-}
-
-
-
 /*Body styling*/
-.article {
-    padding: 10px;
+main {
+    text-align: left;
+}
+
+.section {
     border-bottom: antiquewhite;
-    border-bottom-style: solid;
+    border-bottom-style:dotted;
+}
+
+.article {
+    padding: 20px;
 }
