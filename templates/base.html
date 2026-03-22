@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9S0W25XE7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-J9S0W25XE7');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Once In Golconda</title>
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="icon" href="/static/images/chris-kaunda-high-resolution-logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="/static/index.js"></script>
+</head>
+<body>
+    {% block header %} {% endblock %}
+    {% block main %} {% endblock %} 
+    <footer>
+        <a class="socials" href="https://www.linkedin.com/in/chriskaunda/" target="_blank"><ion-icon
+                name="logo-linkedin"></ion-icon></a>
+        <a class="socials" href="https://github.com/kaundachris" target="_blank"><ion-icon
+                name="logo-github"></ion-icon></a>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <div class="copyright">&copy;<span id="copyright"></span>, All Rights Reserved, Chris Kaunda</div>
+    </footer>
+</body>
+</html>
