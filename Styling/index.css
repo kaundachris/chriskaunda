@@ -1,27 +1,86 @@
 /*global styling*/
 body {
     margin: auto;
-    background-color: black;
+    background-color: rgb(29, 28, 28);
     color: antiquewhite;
     font-family: sans-serif;
     text-align: center;
-    max-width: 700px;
+    min-width: 700px;
+    max-width: 800px;
 }
 
+/*header styling*/
 header {
     margin: 20px;
+    border-bottom: antiquewhite;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    margin: 10px;
+    color: antiquewhite;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    color: rgb(10, 136, 179);
+    text-decoration: solid;
+}
+
+
+/*main styling*/
 main {
     margin: 20px;
+    text-align: left;
 }
 
-footer {
+.card {
+    border-bottom: antiquewhite;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.card-date {
     margin: 20px;
+    width: 80px;
+}
+
+.divider {
+    height: 100px;
+    border-left: antiquewhite;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card-title {
+    margin: 20px;
+}
+
+.quote {
+    border-left: antiquewhite;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color:  rgb(10, 136, 179);
+}
+
+.pquote {
+    margin: 10px;
+    color: rgb(10, 136, 179);
 }
 
 a {
-    transition: 1s ease;
+    color: rgb(10, 136, 179);
+    transition: .5s ease;
     text-decoration: none;
 }
 
@@ -30,21 +89,26 @@ a:hover {
     text-decoration: solid;
 }
 
-.navigation {
-    margin: 10px;
+/*footer styling*/
+footer {
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .socials {
-    font-size:x-large;
-    margin: 5px;
+    margin: 10px;
+    color: antiquewhite;
+    transition: .5s ease;
+    text-decoration: none;
 }
 
-/*Body styling*/
-
-main {
-    text-align: left;
-}
-
-.article {
-    padding: 20px;
+.socials:hover {
+    color: rgb(10, 136, 179);
+    text-decoration: solid;
 }
