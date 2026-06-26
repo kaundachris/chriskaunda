@@ -39,6 +39,35 @@ header {
 
 
 
+/*footer styling*/
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.socials {
+    margin: 10px;
+    color: antiquewhite;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.socials:hover {
+    color: rgb(10, 136, 179);
+    text-decoration: solid;
+}
+
+
+
 
 
 
