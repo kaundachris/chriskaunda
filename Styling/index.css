@@ -52,8 +52,8 @@ main {
 }
 
 .card-date {
-    margin: 20px;
-    width: 80px;
+    margin: 10px;
+    min-width: 80px;
 }
 
 .divider {
@@ -64,7 +64,7 @@ main {
 }
 
 .card-title {
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .quote {
@@ -75,7 +75,7 @@ main {
 }
 
 .pquote {
-    margin: 10px;
+    margin-left: 10px;
     color: rgb(10, 136, 179);
 }
 
