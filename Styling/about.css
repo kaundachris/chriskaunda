@@ -34,9 +34,12 @@ header {
     text-decoration: solid;
 }
 
-
-
-
+/*main styling*/
+main {
+    margin: 20px;
+    line-height: 1.75;
+    font-size: 1.08rem;
+}
 
 /*footer styling*/
 footer {
@@ -112,6 +115,8 @@ a:hover {
 /*Body styling*/
 main {
     text-align: left;
+    line-height: 1.75;
+    font-size: 1.08rem;
 }
 
 .section {

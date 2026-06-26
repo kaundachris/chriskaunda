@@ -34,10 +34,12 @@ header {
     text-decoration: solid;
 }
 
-
-
-
-
+/*main styling*/
+main {
+    margin: 20px;
+    line-height: 1.75;
+    font-size: 1.08rem;
+}
 
 /*footer styling*/
 footer {
@@ -97,9 +99,7 @@ header {
     margin: 20px;
 }
 
-main {
-    margin: 20px;
-}
+
 
 footer {
     margin: 20px;
