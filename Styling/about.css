@@ -1,13 +1,53 @@
 /*global styling*/
 body {
     margin: auto;
-    background-color: black;
+    background-color: rgb(29, 28, 28);
     color: antiquewhite;
     font-family: sans-serif;
     text-align: center;
-    max-width: 900px;
-    min-width: 700px;
+    max-width: 700px;
 }
+
+/*header styling*/
+header {
+    margin: 20px;
+    border-bottom: antiquewhite;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    margin: 10px;
+    color: antiquewhite;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    color: rgb(10, 136, 179);
+    text-decoration: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header {
     margin: 20px;
