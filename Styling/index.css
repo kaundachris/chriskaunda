@@ -52,7 +52,6 @@ main {
 }
 
 .card-date {
-    margin: 10px;
     min-width: 80px;
 }
 
@@ -65,6 +64,7 @@ main {
 
 .card-title {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .quote {
