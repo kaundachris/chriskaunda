@@ -46,6 +46,11 @@ main {
     border-left-style: solid;
 }
 
+.intro {
+    margin-left: 20px;
+    color: rgb(10, 136, 179);
+}
+
 .card {
     margin-left: 20px;
     border-bottom: antiquewhite;
@@ -54,7 +59,7 @@ main {
     align-items: center;
 }
 
-.details {
+.card-details {
     display: flex;
     align-items: center;
 }
