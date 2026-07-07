@@ -10,7 +10,6 @@ body {
 /*header styling*/
 header {
     margin: 20px;
-    border-bottom: antiquewhite;
     border-bottom-style: solid;
     border-bottom-width: 2px;
 }
@@ -53,7 +52,6 @@ main {
 
 .card {
     margin-left: 20px;
-    border-bottom: antiquewhite;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     align-items: center;
@@ -82,7 +80,6 @@ main {
 .divider {
     margin-right: 100px;
     margin-left: 100px;
-    border-left: antiquewhite;
     border-style: solid;
     border-width: 1px;
 }
