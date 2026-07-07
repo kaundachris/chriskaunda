@@ -43,6 +43,8 @@ main {
 
 .intro {
     color: rgb(10, 136, 179);
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card {
