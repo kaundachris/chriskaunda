@@ -40,11 +40,6 @@ main {
   
 }
 
-.article_border_left {
-    border-left: 1px;
-    border-left-style: solid;
-}
-
 .intro {
     margin-left: 20px;
     color: rgb(10, 136, 179);

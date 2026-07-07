@@ -41,6 +41,11 @@ main {
     line-height: 1.75;
 }
 
+.intro {
+    margin-left: 20px;
+    color: rgb(10, 136, 179);
+}
+
 .card {
     border-bottom: antiquewhite;
     border-bottom-style: solid;
