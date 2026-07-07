@@ -42,25 +42,20 @@ main {
 }
 
 .intro {
-    margin-left: 20px;
     color: rgb(10, 136, 179);
 }
 
 .card {
-    border-bottom: antiquewhite;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    display: flex;
-    align-items: center;
 }
 
 .card-title {
-    margin-left: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .quote {
-    border-left: antiquewhite;
     border-left-style: solid;
     border-left-width: 1px;
     border-left-color:  rgb(10, 136, 179);
