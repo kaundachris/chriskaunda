@@ -54,7 +54,6 @@ main {
 .article_details {
     display: flex;
     font-size: smaller;
-    
 }
 
 .in_article {
@@ -73,13 +72,7 @@ main {
     font-size: larger;
 }
 
-.article_border_left {
-    border-left: 1px;
-    border-left-style: solid;
-}
-
 .article {
-    margin-left: 20px;
     line-height: 1.75;
     font-size: 1.08rem;
 }
@@ -107,7 +100,8 @@ a:hover {
 }
 
 .article_border_bottom {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-bottom: 1px;
     border-bottom-style: solid;
 }

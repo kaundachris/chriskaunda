@@ -39,11 +39,6 @@ main {
     line-height: 1.75;
 }
 
-.article_border_left {
-    border-left: 1px;
-    border-left-style: solid;
-}
-
 .card {
     margin-left: 20px;
     border-bottom-style: solid;
