@@ -38,7 +38,7 @@ main {
     margin: 20px;
     text-align: left;
     line-height: 1.75;
-    font-size: .9rem;
+  
 }
 
 .article_border_left {
@@ -79,13 +79,9 @@ main {
     display: flex;
 }
 
-.job-date {
-    min-width: 80px;
-    margin-right: 10px;
-}
-
 .divider {
-    margin-right: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
     border-left: antiquewhite;
     border-style: solid;
     border-width: 1px;
