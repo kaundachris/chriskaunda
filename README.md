@@ -2,6 +2,8 @@
 
 A clean, editorial-style personal website and blog built to showcase writing, profile, and professional identity through a strong front-end design. This project combines content storytelling with a modern static web experience.
 
+**Live Site:** https://chriskaunda.com/
+
 ## Project Overview
 
 This website serves as a personal digital home for:
