@@ -68,15 +68,7 @@ main {
 }
 
 .job {
-    margin: 20px;
-    display: flex;
-}
-
-.divider {
-    margin-right: 100px;
-    margin-left: 100px;
-    border-style: solid;
-    border-width: 1px;
+    margin-bottom: 40px;
 }
 
 .job-details {
